@@ -16,4 +16,4 @@ For example:
 Every time a Finder window is resized or moved, its new size and position are stored in a `.framedata.json` file in that folder. When a folder is opened, this file is used to restore its state.
 
 ## Known issues
-When two folders of the same name exist, the state is not saved or restored.
+When two folders of the same name exist, the state is not saved nor is it restored.
