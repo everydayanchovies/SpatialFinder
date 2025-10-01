@@ -3,7 +3,7 @@ This project contains scripts that once installed, make the macOS Finder remembe
 
 This is inspired by the following article:  https://arstechnica.com/gadgets/2003/04/finder/ .
 
-[demo.webm](https://raw.githubusercontent.com/everydayanchovies/SpatialFinder/main/demo.webm)
+[demo.webm](https://github.com/user-attachments/assets/e228fd7e-fd16-43e7-8022-4fc116b5478e)
 
 ## Requirements
 [yabai](https://github.com/koekeishiya/yabai)
