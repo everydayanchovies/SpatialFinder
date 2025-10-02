@@ -12,10 +12,10 @@ This is inspired by the following article:  https://arstechnica.com/gadgets/2003
 Link all 5 scripts to a place in the path and execute `install.sh` to install the `yabai` rules.
 
 For example:
-```sudo ln -s /Users/...full-path-here.../spatialfinder_loadallstates.sh /usr/local/bin/```
+```sudo ln -s /Users/...full-path-here.../spatialfinder_loadstate.sh /usr/local/bin/```
 
 ## How does it work
-Every time a Finder window is resized or moved, its new size and position are stored in a `.framedata.json` file in that folder. When a folder is opened, this file is used to restore its state.
+Every time a Finder window is resized or moved, its new size and position are stored in a hidden `.framedata.json` file in that folder. When a folder is opened, this file is used to restore its state.
 
 ## Known issues
 When two folders of the same name exist, the state is not saved nor is it restored.
