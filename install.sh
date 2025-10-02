@@ -1,6 +1,8 @@
 #!/bin/zsh
 
-yabai -m signal --add event=window_created app="Finder" action="spatialfinder_loadallstates.sh"
+yabai -m signal --add event=window_created app="Finder" action="spatialfinder_loadstate.sh \$YABAI_WINDOW_ID"
+
+yabai -m signal --add event=window_moved app="Finder" action="spatialfinder_savestate.sh \$YABAI_WINDOW_ID"
 
 yabai -m signal --add event=window_moved app="Finder" action="spatialfinder_savestate.sh \$YABAI_WINDOW_ID"
 
